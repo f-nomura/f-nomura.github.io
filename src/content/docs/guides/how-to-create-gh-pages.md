@@ -212,12 +212,10 @@ jobs:
 
 #### （ブランチ名が master になっている場合のみ）GitHub Actions 用にブランチ名を変更する
 ブランチ名が `master` だと GitHub Actions が認識できないので、`main` に変更します。  
-ターミナルで `<username>.github.io` に移動して以下のコマンドで名前を変更するか、
+ターミナルで （`<username>.github.io` に移動して）以下のコマンドで名前を変更して、push します。
 ```bash
 git branch -m master main
+git push -u origin main
 ```
-エディタの Git 機能で変更しましょう。  
-VScode であれば **Git のマーク > Changes の横の三点リーダ > Branch > Rename Branch** より変更できます。
-![](figs/20260411-vscode_rename_branch.jpg)
 
 
