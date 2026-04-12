@@ -10,8 +10,8 @@ export default defineConfig({
 			social: [{ icon: 'github', label: 'GitHub', href: 'https://f-nomura.github.io' }],
 			sidebar: [
 				{
-					label: 'Guides',
-					autogenerate: { directory: 'guides' }, 
+					label: 'Documents',
+					autogenerate: { directory: 'documents' }, 
 				},
 				{
 					label: 'Reference',
