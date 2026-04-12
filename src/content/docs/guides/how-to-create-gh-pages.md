@@ -233,4 +233,31 @@ GitHub リポジトリを開き、Action ボタンを押します。これでデ
 
 
 ## E. トップページを更新する
+`index.mdx` というファイルがトップページにあたります。  
+とりあえず簡単に以下のように書いてみます。  
+これでタイトルや記事に誘導するボタン、最新情報などが載せられます。オリジナルの文言に変更して、まずはシンプルなトップページを完成させましょう。  
+```markdown
+---
+title: f-nomura
+description: notes
+template: splash
+hero:
+  tagline: 学習アーカイブ
+  actions:
+    - text: "New: GitHub Pages + Astro でオリジナルサイトを作成する"
+      link: /guides/how-to-create-gh-pages/
+      icon: star
+      variant: primary
+    - text: アーカイブ一覧を見る
+      link: /guides/how-to-create-gh-pages/
+      icon: right-arrow
+      variant: minimal
+---
 
+## Latest Topics
+
+- **GitHub Pages + Astro** によるブログ構築方法を公開しました。
+- **GitHub Copilot Student** の導入とReject対策（作成中）。
+```
+シンプルなトップページが出来上がりました。  
+![](figs/20260412-simple_toppage.jpg)
