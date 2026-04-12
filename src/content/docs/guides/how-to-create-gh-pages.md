@@ -1,5 +1,5 @@
 ---
-title: GitHub Pages でウェブサイトを作成する方法
+title: GitHub Pages + Astro でオリジナルサイトを作成する
 ---
 ## A. GitHub Pages とは
 GitHub Pages とは、**「GitHubのリポジトリにあるファイルを、そのままWebサイトとして無料で公開できるホスティングサービス」** です。  
@@ -30,7 +30,9 @@ Markdownファイルを `git push` した瞬間に、自動的にビルド（HTM
 では実際に、自分だけの Web サイトを立ち上げてみましょう。
 
 
-## B. リモートリポジトリを作成する（SSG に Astro を使用する場合は飛ばしてください）
+## B. リモートリポジトリを作成する（.github.io を見てみたい場合のみ）
+**Astro 作成時に自動でリポジトリが作られます。そのリポジトリを GitHub に push できるのでここで作成しなくて大丈夫です**
+
 まずはGitHub上で、`<username>.github.io` リポジトリを作成します。詳細は[クイックスタート](https://docs.github.com/en/pages/quickstart)をチェックしてください。
 
 1.  GitHubにログインし、新しいリポジトリを作成します
@@ -44,8 +46,6 @@ Markdownファイルを `git push` した瞬間に、自動的にビルド（HTM
 
 
 これだけで、`https://<username>.github.io` にアクセスできるようになります。
-
-![](figs/20260410-https_github_io.jpg)
 
 
 ## C. SSG（静的サイトジェネレーター）における Astro の立ち位置
@@ -89,7 +89,7 @@ Astroを動かすには **Node.js**　が必要です。
 
 ### 2. Astro を作成し、サーバーを立ち上げてみる
 `<username>.github.io` のディレクトリに移動し、以下のコマンドを打ちます。  
-**B. リモートリポジトリを作成する** にて.git ファイルと README を作ってしまっている場合は横に避けて空の状態で Astro を作成してください。
+**B. リモートリポジトリを作成する** にて.git ファイルと README を作っている場合は横に避けて空の状態で Astro を作成してください。
 ```bash
 cd <username>.github.io
 npm create astro@latest
@@ -232,4 +232,5 @@ GitHub リポジトリを開き、Action ボタンを押します。これでデ
 全世界に公開されているのでスマホからでもアクセスできます。
 
 
-## E. 
+## E. トップページを更新する
+
