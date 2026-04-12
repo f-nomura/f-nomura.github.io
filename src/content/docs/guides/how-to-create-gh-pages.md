@@ -261,3 +261,7 @@ hero:
 ```
 シンプルなトップページが出来上がりました。  
 ![](figs/20260412-simple_toppage.jpg)
+
+その他カスタマイズは [公式ドキュメント](https://docs.astro.build/ja/getting-started/) などを参照してください。
+
+（2026/4/12 作成）
