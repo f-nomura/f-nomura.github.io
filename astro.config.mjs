@@ -11,12 +11,16 @@ export default defineConfig({
 			social: [{ icon: 'github', label: 'GitHub', href: 'https://f-nomura.github.io' }],
 			sidebar: [
 				{
-					label: 'Documents',
-					autogenerate: { directory: 'documents' },
+					label: 'Notes',
+					autogenerate: { directory: 'Notes' },
 				},
 				{
-					label: 'Reference',
-					autogenerate: { directory: 'reference' },
+					label: '論文レビュー',
+					autogenerate: { directory: '論文レビュー' },
+				},
+				{
+					label: '続・わかりやすいパターン認識',
+					autogenerate: { directory: '続・わかりやすいパターン認識' },
 				},
 			],
 		}),
