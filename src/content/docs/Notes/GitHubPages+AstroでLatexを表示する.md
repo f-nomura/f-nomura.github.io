@@ -68,3 +68,12 @@ export default defineConfig({
 
 その後、`npm install` を実行して依存関係を反映しました。
 
+## C. KaTeX の CSS を追加する
+数式の見た目が崩れている場合は、`src/styles/global.css` などに次を追加します。
+
+```css
+@import 'katex/dist/katex.min.css';
+```
+
+これで KaTeX のスタイルが読み込まれ、Markdown プレビューに近い見た目になります。
+

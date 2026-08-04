@@ -13,6 +13,7 @@ export default defineConfig({
 	},
 	integrations: [
 		starlight({
+			customCss: ['./src/styles/global.css'],
 			title: 'f-nomura',
 			social: [{ icon: 'github', label: 'GitHub', href: 'https://f-nomura.github.io' }],
 			sidebar: [
