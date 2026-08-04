@@ -12,7 +12,7 @@ export default defineConfig({
 			sidebar: [
 				{
 					label: 'notes',
-					autogenerate: { directory: 'Notes' },
+					autogenerate: { directory: 'notes' },
 				},
 				{
 					label: '論文レビュー',
