@@ -11,7 +11,7 @@ export default defineConfig({
 			social: [{ icon: 'github', label: 'GitHub', href: 'https://f-nomura.github.io' }],
 			sidebar: [
 				{
-					label: 'Notes',
+					label: 'notes',
 					autogenerate: { directory: 'Notes' },
 				},
 				{
